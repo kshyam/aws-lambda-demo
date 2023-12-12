@@ -1,6 +1,7 @@
 import json
 import requests
 
+
 def lambda_handler(event, context):
     # Make sure a Pokemon name (or ID) was passed in the event object:
     pokemon = event.get('pokemon')
